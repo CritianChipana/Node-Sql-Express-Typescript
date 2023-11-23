@@ -6,7 +6,7 @@ const sequelize_1 = require("sequelize");
 //   dialect: process.env.DATABASELENGUAJE
 // //   logging : false
 // })
-const db = new sequelize_1.Sequelize('node', 'root', '', {
+const db = new sequelize_1.Sequelize('node_ts_migrations', 'root', '', {
     host: 'localhost',
     dialect: 'mysql'
     //   logging : false

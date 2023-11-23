@@ -6,7 +6,7 @@ import { Sequelize } from 'sequelize'
 // //   logging : false
 // })
 
-const db = new Sequelize('node', 'root', '', {
+const db = new Sequelize('node_ts_migrations', 'root', '', {
   host: 'localhost',
   dialect: 'mysql'
   //   logging : false
